@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <title>Receipt</title>
+</head>
+<body>
+    <div class="container">
+    <section class="table-container">
+        <table border="1" class="table" id="table">
+           <!--
+                   <td class="item-item-unitprice"> 600 </td>
+                <td class="item-total-price"> 300 </td>
+            </tr>
+
+            <tr class=" item-row">
+                <td class="item-num"> 3. </td>
+                <td class="item-name"> Food </td>
+                <td class="item-quantity"> 2 </td>
+                <td class="item-quantity"> 300 </td>
+                <td class="item-total-price">400</td>
+                 <tr class="item-row">
+                <td class="item-num"> 1. </td>
+                <td class="item-name"> Biscuit </td>
+                <td class="item-quantity"> 4 </td>
+                <td class="item-unitprice"> 350 </td>
+                <td class="item-total-price"> 400 </td>
+            </tr>
+            <tr class="item-row">
+                <td class="item-num"> 2. </td>
+                <td class="item-name"> Water </td>
+                <td class="item-quantity"> 6 </td>
+            </tr>
+           --> <tr>
+                <th>S/N</th>
+                <th>ITEM</th>
+                <th>QUANTITY</th>
+                <th>UNIT ITEM</th>
+                <th> TOTAL PRICE</th>
+                
+            </tr>
+           
+            <tr id="total-row">
+                <td colspan="4"> TotalPrice </td>
+                <td id="total-price">1200</td>
+            </tr>
+        </table>
+    </section>
+        
+    </div>
+
+    <section class="form-container">
+
+        <h1>Add New Item </h1>
+        <form action="#" id=" form-additem">
+        <div class="form-input">
+            <label for="input-item-name"> Name </label>
+            <input type="text" id="input-item-name">
+        </div>
+
+        <div class="form-input">
+            <label for="input-item-quantity"> Quantity </label>
+            <input type="number" id="input-item-quantity">
+        </div>
+
+        <div class="form-input">
+            <label for="input-item-unitprice"> UnitPrice</label>
+            <input type="number" id="input-item-unitprice">
+        </div>
+
+        <div class="form-input">
+            <button id="btn-form-submit">Add Item</button>
+        </div>
+        </form>
+
+    </section>
+    
+<script src="script.js"></script>
+
+</body>
+</html>
+

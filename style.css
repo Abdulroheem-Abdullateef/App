@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid red;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.form-container{
+    margin-top: 20px;
+}
+
+.form-input{
+    margin: 20px 2px;
+}
+
+.form-heading{
+    text-align: center;
+}
